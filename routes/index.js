@@ -4,7 +4,7 @@
  * @name      index.js
  * @summary   Route control of homepage
  * @link      /route/index.js
- * @since     2018-02-03
+ * @since     2018-08-10
  * @author    Zuowu Zheng <wozhengzw@gmail.com>
  */
     
@@ -72,7 +72,7 @@ router.get("/program.html", function (req, res, next) {
     });
 });
 
-router.get("/video.html", function (req, res, next) {
+/*router.get("/video.html", function (req, res, next) {
     "use strict";
     let path1 = path.join(root, 'public', 'banquet');
     let videos = fs.readdirSync(path1);
@@ -82,23 +82,23 @@ router.get("/video.html", function (req, res, next) {
         'active': 10,
         'videos': videos
     })
-});
+});*/
 
-router.get("/celebration.html", function (req, res, next) {
+/*router.get("/celebration.html", function (req, res, next) {
     "use strict";
     return res.render("index", {
         "page": "celebration",
         "active": 11
     });
-});
+});*/
 
-router.get("/photos.html", function (req, res, next) {
+/*router.get("/photos.html", function (req, res, next) {
     "use strict";
     return res.render("index", {
         "page": "photos",
         "active": 12
     });
-});
+});*/
 
 /*router.get("/keynote.html", function (req, res, next) {
     "use strict";
