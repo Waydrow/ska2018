@@ -15,3 +15,7 @@
 .photo-cell {
     max-height: 300px;
 }
+
+body {
+    font-size: 16px;
+}
