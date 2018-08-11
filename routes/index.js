@@ -100,6 +100,15 @@ router.get("/program.html", function (req, res, next) {
     });
 });*/
 
+router.get("/past.html", function (req, res, next) {
+    "use strict";
+    return res.render("index", {
+        "page": "past",
+        "active": 13
+    });
+});
+
+
 /*router.get("/keynote.html", function (req, res, next) {
     "use strict";
     return res.render("index", {
