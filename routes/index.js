@@ -197,6 +197,14 @@ router.get("/contactus.html", function (req, res, next) {
     });
 });
 
+router.get("/photos.html", function (req, res, next) {
+    "use strict";
+    return res.render("index", {
+        "page": "photos",
+        "active": 14
+    });
+});
+
 /*router.get("/bestpapers.html", function (req, res, next) {
     "use strict";
     return res.render("index", {
